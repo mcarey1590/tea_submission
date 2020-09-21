@@ -18,6 +18,7 @@ namespace student_api.Models
         {
             PersonSetup(modelBuilder);
             StudentGradeSetup(modelBuilder);
+            CourseSetup(modelBuilder);
         }
 
         private void PersonSetup(ModelBuilder modelBuilder)

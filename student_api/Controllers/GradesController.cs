@@ -22,8 +22,10 @@ namespace student_api.Controllers
             _coursesRepo = coursesRepo;
         }
 
-        
+
+        // POST: grades
         [HttpPost("")]
+        
         public ActionResult<Transcript> AddGrade(StudentGrade studentGrade)
         {
             if (!ModelState.IsValid)
@@ -47,7 +49,7 @@ namespace student_api.Controllers
             {
                 return BadRequest("Failed to add grade. Please check request values and try again"); // ideally we would let the consumer know exactly why the request failed
             }
-            return Ok(addedGrade);
+            return Created("Grade was added", addedGrade);
         }
     }
 }

@@ -30,6 +30,7 @@ namespace student_api
 
             services.AddScoped<IStudentsRepository, SqlServerStudentsRepository>();
             services.AddScoped<IGradesRepository, SqlServerGradesRepository>();
+            services.AddScoped<ICoursesRepository, SqlServerCoursesRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
