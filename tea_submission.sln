@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "student_api", "student_api\student_api.csproj", "{FF39EA91-8114-4CE7-ACE1-87420BA558A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B5764A8-A050-4D90-BFE6-14E0C6F70CD6}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.debug.yml = docker-compose.debug.yml
+		docker-compose.yml = docker-compose.yml
+		create_tea_test_db.sql = create_tea_test_db.sql
+		AlterStudentGradesAddConstraints.sql = AlterStudentGradesAddConstraints.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF39EA91-8114-4CE7-ACE1-87420BA558A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF39EA91-8114-4CE7-ACE1-87420BA558A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF39EA91-8114-4CE7-ACE1-87420BA558A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF39EA91-8114-4CE7-ACE1-87420BA558A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
